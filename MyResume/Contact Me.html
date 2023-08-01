@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Me</title>
+    <style> 
+      .Contact {
+            width: 500px;
+            height: 470px;
+            border: 1px solid rgb(126, 125, 125);
+            border-radius: 5px;
+            margin: 15px;
+      }
+      .text {
+            margin: 40px;
+      }
+    </style>
+</head>
+
+<nav>
+    <a href="Home.html">Home</a> |
+    <a href="Education.html">Education</a> |
+    <a href="Work Experience.html">Work Experience</a> |
+    <a href="Contact Me.html">Contact Me </a> |
+</nav>  
+<hr>
+<body>
+<h1>Contact Me</h1>
+    <div class="Contact">
+       <div class="text">
+        <p>Enter your info..</p>
+        <form action="/action_page.php">
+            <label for="fname">Your name</label><br>
+            <input style="width:350px" type="text" id="fname" name="fname"><br><br>
+            <label for="lname">Your E-mail</label><br>
+            <input style="width: 350px" type="text" id="lname" name="lname"><br><br>
+            <label for="lname">Gender</label><br>
+        <div style="padding-bottom: 20px;">
+            
+            <select style="width: 358px" id="Gender">
+            <option value="select..">select</option>
+            <option value="Male">Male</option>
+            <option value="Female">Female</option>
+
+  </select>
+</div>
+            <label for="lname">Message</label><br>
+            <textarea style="width: 350px; height: 120px" id="Message" name="lname"></textarea><br><br>
+            <button class="Btn">Send</button>
+            <button class="Btn">Clear</button>
+
+        </form>
+    </div>
+</div>
+</body>
+</html>
